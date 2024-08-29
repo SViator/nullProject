@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<title>Abito</title>
+</head>
+
+<body>
+	<div class="wrap">
+
+		<header class="header">
+			<div class="header-logo">
+				<img src="./img/logo.svg" alt="logo">
+				<h3>Abito</h3>
+			</div>
+			<div class="header-controls">
+				<button class="btn btn-outline">Вход и регистрация</button>
+				<button class="btn btn-primary">Подать объявление</button>
+			</div>
+			<div class="header-burger">
+				<img src="./img/burger.svg" alt="burger">
+			</div>
+		</header>
+
+		<main>
+			<section class="search">
+				<form action="#">
+					<input placeholder="Поиск по объявлениям" type="text" id="searchInput" required>
+					<button class="btn search-btn">
+						<img src="./img/search.svg" alt="search">
+						<h5>Найти</h5>
+					</button>
+				</form>
+			</section>
+
+			<section class="content">
+				<div class="contend-product">
+					<div class="product__descript">
+						<h3>Электросамокат kugoo Gx</h3>
+						<img src="./img/kugoo.jpeg" alt="photo">
+						<!-- <div class="product__photo">
+							
+						</div> -->
+						<p class="product__text">
+							Продаю не спеша самокат в хорошем состоянии.<br>
+							Торг возможен.<br>
+							За период эксплуатации не выявлено ни одной проблемы.<br>
+							Из минусов — нужно прокачать задний тормоз.<br>
+							Установлен отсекатель сзади.<br>
+							Покрышки CST внедорожные.<br>
+							Все на подшипниках, болты протянуты.<br>
+							Пробег 881км , это немного для такого зверя.
+						</p>
+					</div>
+					<div class="product__offer">
+						<h3 class="offer__price">75 000 ₽</h3>
+						<button class="btn offer__btn">Показать телефон</button>
+					</div>
+				</div>
+
+				<aside class="content-services">
+					<h4>Сервисы и услуги</h4>
+					<div class="content-services__list">
+						<div class="content-services__item">
+							<img src="./img/van.svg" alt="van">
+							<span>Доставка</span>
+							<p>Проверка при получении и возможность бесплатно вернуть товар</p>
+						</div>
+						<div class="content-services__item">
+							<img src="./img/sedan.svg" alt="sedan">
+							<span>Автотека</span>
+							<p>Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и ремонтах</p>
+						</div>
+						<div class="content-services__item">
+							<img src="./img/love.svg" alt="love">
+							<span>Онлайн-бронирование жилья</span>
+							<p>Посуточная аренда квартир и домов: большой выбор вариантов для поездок по России</p>
+						</div>
+					</div>
+					<div class="line"></div>
+				</aside>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__info footer__info_product">
+				<p>© ООО «Абито», 2011–2021</p>
+				<a href="#">Политика конфиденциальности</a>
+				<a href="#">Обработка данных</a>
+			</div>
+		</footer>
+
+	</div>
+</body>
+
+</html>
