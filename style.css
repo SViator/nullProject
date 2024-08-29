@@ -177,6 +177,7 @@ a {
 	color: #C4C4C4;
 }
 
+/*---- Services ----*/
 .content-services {
 	min-width: 230px;
 }
@@ -193,6 +194,11 @@ a {
 .content-services__item {
 	min-width: 200px;
 	margin-bottom: 25px;
+}
+
+.content-services__item_lower > img {
+	position: relative;
+	top: 5px;
 }
 
 .content-services__item span {
@@ -277,7 +283,7 @@ a {
 	}
 
 	.content-main {
-		margin-bottom: 15px;
+		margin: 0 0 15px 30px;
 	}
 
 	/*---- Servises ----*/
@@ -291,7 +297,7 @@ a {
 		justify-content: space-around;
 		flex-wrap: wrap;
 		max-width: 100%;
-		padding-left: 30px;
+		margin-bottom: 0;
 	}
 
 	.content-services__item {
