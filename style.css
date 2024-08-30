@@ -99,7 +99,7 @@ a {
 	border-radius: 5px;
 }
 
-.search form {
+.search {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -132,7 +132,8 @@ a {
 /*---- Content ----*/
 .content {
 	display: flex;
-	justify-content: start;
+	justify-content: space-between;
+	min-height: 585px;
 }
 
 .content-main h3 {
@@ -142,7 +143,7 @@ a {
 
 .content-main__list {
 	display: flex;
-	justify-content: center;
+	justify-content: start;
 	flex-wrap: wrap;
 	max-width: 882px;
 }
@@ -232,7 +233,7 @@ a {
 }
 
 .footer__info {
-	width: 23%;
+	width: 231px;
 	color: #C4C4C4;
 	position: relative;
 	bottom: 105px;
@@ -307,6 +308,12 @@ a {
 
 /*---- End product page ----*/
 /*---- @media ----*/
+@media (max-width: 1136px) {
+	.content-main__list {
+		justify-content: space-evenly;
+	}
+}
+
 @media (max-width: 1050px) {
 	.contend-product {
 		flex-direction: column;
@@ -360,8 +367,8 @@ a {
 		margin: 0 0 15px 30px;
 	}
 
-	.content-main > h3 {
-		text-align: center;
+	.content-main__list {
+		justify-content: space-evenly;
 	}
 
 	/*---- Servises ----*/
