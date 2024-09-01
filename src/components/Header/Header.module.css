@@ -1,0 +1,63 @@
+.btn {
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/*---- Header ----*/
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px 0 24px;
+}
+
+.header > a {
+	text-decoration: none;
+	color: #0A143A;
+}
+
+.header > a:hover {
+	color: #256eebc7;
+}
+
+.headerLogo {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.headerLogo img {
+	margin-right: 6px;
+}
+
+.btnOutline {
+	background-color: transparent;
+}
+
+.btnPrimary {
+	color: white;
+	background-color: #256EEB;
+}
+
+.btnPrimary:hover {
+	background-color: #256eebc7;
+}
+
+.headerBurger {
+	width: 30px;
+	height: 15px;
+	display: none;
+}
+
+/*---- Header end ----*/
+@media (max-width: 811px) {
+	.headerControls {
+		display: none;
+	}
+
+	.headerBurger {
+		display: inline;
+	}
+}

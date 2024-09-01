@@ -1,0 +1,23 @@
+.services__item {
+	min-width: 200px;
+	margin-bottom: 25px;
+}
+
+.services__item_lower > img {
+	position: relative;
+	top: 5px;
+}
+
+.services__item span {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+@media (max-width: 811px) {
+	.services__item {
+		width: 230px;
+		margin-bottom: 25;
+		margin-right: 5px;
+	}
+}
